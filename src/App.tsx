@@ -1,3 +1,4 @@
+import { Timer, TimerIcon } from "lucide-react";
 import { Heading } from "./components/Heading";
 
 export function App() {
@@ -5,7 +6,12 @@ export function App() {
 
   return (
     <div>
-      <Heading />
+      <Heading>
+        Olá mundo React!
+        <button>
+          <TimerIcon />
+        </button>
+      </Heading>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
         assumenda quasi voluptates nesciunt qui, numquam vero ex odio, obcaecati
